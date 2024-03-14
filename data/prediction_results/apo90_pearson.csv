@@ -1,0 +1,91 @@
+,apo/holo,af2_pearson,pvqd_pearson,eigen_pearson,holo,name,valid_alphas,head,structure_method,anno(local+inter-domain+other),structure_method2
+0,1a6d.A/1a6e.A,-0.21205772000848297,-0.10202286941229381,0.2181002385088678,1a6e.A.pdb,1a6d.A.pdb,503,chaperonin,x-ray diffraction,local,x
+1,1ael.A/1ure.A,0.22817767303356884,0.47965732573609315,0.2926633886426092,1ure.A.pdb,1ael.A.pdb,131,lipid binding protein,solution nmr,,n
+2,1akz.A/1ssp.E,0.4630188628060886,0.6929451533885178,0.7615576276822126,1ssp.E.pdb,1akz.A.pdb,223,glycosidase,x-ray diffraction,local,x
+3,1aw2.A/1aw1.B,0.06262115704208399,0.3600072433753129,0.8543054379846245,1aw1.B.pdb,1aw2.A.pdb,255,isomerase,x-ray diffraction,local,x
+4,1bv2.A/1uvb.A,0.7621571211089103,0.5019688202662914,0.4929903208534389,1uvb.A.pdb,1bv2.A.pdb,91,lipid binding protein,solution nmr,,x
+5,1c54.A/1rgh.B,-0.059643587139641976,0.3120366161708584,0.024436138462805714,1rgh.B.pdb,1c54.A.pdb,96,hydrolase,solution nmr,,x
+6,1cfc.A/5dow.A,0.5900925626194997,0.7235130437842324,0.1864220011479765,5dow.A.pdb,1cfc.A.pdb,148,calcium-binding protein,solution nmr,,x
+7,1dmo.A/3cln.A,0.516253846974709,0.5864021025874123,0.34951995561818333,3cln.A.pdb,1dmo.A.pdb,148,calcium-binding protein,solution nmr,,x
+8,1e5l.A/1e5q.A,0.6519447953096853,0.38389911721958897,-0.08647456029918968,1e5q.A.pdb,1e5l.A.pdb,449,oxidoreductase,x-ray diffraction,other,x
+9,1eal.A/1eio.A,0.41721135106306007,0.3827358158408147,0.664545284601188,1eio.A.pdb,1eal.A.pdb,127,fatty acid binding protein,solution nmr,,n
+10,1evk.A/1evl.A,-0.1709151897260697,0.32463522273119566,-0.20443373608235654,1evl.A.pdb,1evk.A.pdb,401,ligase,x-ray diffraction,local,x
+11,1ex6.B/1ex7.A,0.9312748496796716,0.9283827210138952,0.7115866443626077,1ex7.A.pdb,1ex6.B.pdb,186,transferase,x-ray diffraction,inter-domain,x
+12,1f3y.A/1jkn.A,0.34476153724564174,0.7153224980895964,0.4917876819723681,1jkn.A.pdb,1f3y.A.pdb,165,hydrolase,solution nmr,,n
+13,1fmf.A/1id8.A,0.38620088376767625,0.6771234193930085,0.6429468355532076,1id8.A.pdb,1fmf.A.pdb,137,isomerase,solution nmr,,n
+14,1fsf.A/1fqo.B,0.428822643289325,0.6021478774027639,0.7234058015265379,1fqo.B.pdb,1fsf.A.pdb,266,isomerase,x-ray diffraction,local,x
+15,1g6w.D/1k0b.C,0.750828562627569,0.7205079454649956,0.8662524784835551,1k0b.C.pdb,1g6w.D.pdb,259,structural genomics,x-ray diffraction,local,x
+16,1gh1.A/1cz2.A,0.7169411626300072,0.6063246400603095,0.6843321603999809,1cz2.A.pdb,1gh1.A.pdb,90,lipid binding protein,solution nmr,,n
+17,1gqn.A/1qfe.B,0.1506990790129914,0.2480642157142668,0.7038371248189439,1qfe.B.pdb,1gqn.A.pdb,252,lyase,x-ray diffraction,local,x
+18,1gqz.A/2gke.A,0.6310586169163931,0.7229514191577256,0.8261605235767212,2gke.A.pdb,1gqz.A.pdb,274,isomerase,x-ray diffraction,inter-domain,x
+19,1gud.A/1rpj.A,0.6704658380795425,0.5525422826934758,0.42447893512713847,1rpj.A.pdb,1gud.A.pdb,288,periplasmic binding protein,x-ray diffraction,inter-domain,x
+20,1hoo.B/1cg0.A,0.12525231205599008,0.5627158581074557,0.000779372801281652,1cg0.A.pdb,1hoo.B.pdb,431,ligase,x-ray diffraction,other,x
+21,1hsi.B/1hsh.D,0.08219700807342656,0.8044507733318133,0.483298624940425,1hsh.D.pdb,1hsi.B.pdb,99,hydrolase (acid proteinase),x-ray diffraction,local,x
+22,1hw1.B/1h9g.A,0.14361397790701458,0.3760273742076761,0.4614460987000225,1h9g.A.pdb,1hw1.B.pdb,226,transcription,x-ray diffraction,other,x
+23,1i56.A/1el1.A,0.5039345237786709,0.7102096891890248,0.796705638587805,1el1.A.pdb,1i56.A.pdb,130,hydrolase,solution nmr,,x
+24,1igp.A/2au6.A,-0.03664691279233949,0.4492975219185604,0.5269584715165685,2au6.A.pdb,1igp.A.pdb,175,acid anhydride hydrolase,x-ray diffraction,local,x
+25,1ija.A/2kid.A,0.5782337038839189,0.8618124208573332,0.6042878857164248,2kid.A.pdb,1ija.A.pdb,148,protein binding,solution nmr,,n
+26,1jej.A/1jg6.A,0.25428890433569046,0.460223089044744,-0.198951119229316,1jg6.A.pdb,1jej.A.pdb,351,transferase,x-ray diffraction,inter-domain,x
+27,1jfj.A/1jfk.A,-0.09201185139340864,-0.5926201000706071,-0.13618659797394866,1jfk.A.pdb,1jfj.A.pdb,134,metal binding protein,solution nmr,,x
+28,1jm4.B/1wum.A,0.9595478890763167,0.9424989626238255,0.91457904052341,1wum.A.pdb,1jm4.B.pdb,118,transferase,solution nmr,,x
+29,1k2h.A/1zfs.B,0.16550521723494482,0.7024493114403353,0.7524680629190591,1zfs.B.pdb,1k2h.A.pdb,93,metal binding protein,solution nmr,,n
+30,1k5h.A/1q0q.A,0.3077532556229656,0.5264810685258243,0.10422960278846755,1q0q.A.pdb,1k5h.A.pdb,398,oxidoreductase,x-ray diffraction,other,x
+31,1k6w.A/1k70.A,0.03324227502122571,0.15472457196649816,-0.08967473145607896,1k70.A.pdb,1k6w.A.pdb,423,hydrolase,x-ray diffraction,local,x
+32,1l0w.B/1g51.A,0.08788725925159192,0.33891388449290794,0.013931339807497443,1g51.A.pdb,1l0w.B.pdb,580,ligase,x-ray diffraction,local,x
+33,1lip.A/1jtb.A,0.3662682625533936,0.19525313076263473,0.23859290365105426,1jtb.A.pdb,1lip.A.pdb,91,transfer protein,solution nmr,,n
+34,1lmz.A/1p7m.A,0.7593517481524836,0.7562863711231484,0.8004871208089173,1p7m.A.pdb,1lmz.A.pdb,187,hydrolase,solution nmr,,n
+35,1mo7.A/1mo8.A,0.298580661968899,0.23482885870698975,0.685559390516119,1mo8.A.pdb,1mo7.A.pdb,213,hydrolase,solution nmr,,n
+36,1mut.A/1pun.A,0.5671533392792041,0.7709128509830107,0.6402092243131812,1pun.A.pdb,1mut.A.pdb,129,dna repair,solution nmr,,n
+37,1mx7.A/1mx8.A,0.3547385643109584,0.5019209601372866,0.3878549073912228,1mx8.A.pdb,1mx7.A.pdb,134,lipid binding protein,solution nmr,,n
+38,1njg.B/1njf.A,0.38773658603164285,0.5408151330019378,0.40257867245376333,1njf.A.pdb,1njg.B.pdb,239,transferase,x-ray diffraction,inter-domain,x
+39,1ntr.A/1krx.A,0.3054898956256825,0.412291211921274,0.5402763608592448,1krx.A.pdb,1ntr.A.pdb,124,gene regulatory protein,solution nmr,,n
+40,1o1u.A/1o1v.A,0.4116352276371614,0.5422239648808604,0.5284665394860873,1o1v.A.pdb,1o1u.A.pdb,127,lipid binding protein,solution nmr,,n
+41,1orm.A/1qj8.A,0.7212864657455466,0.8122941224616946,0.7829737637825155,1qj8.A.pdb,1orm.A.pdb,148,membrane protein,solution nmr,,x
+42,1otj.D/1gy9.A,0.34239031875453696,0.7143920213523173,0.37928818885466054,1gy9.A.pdb,1otj.D.pdb,280,oxidoreductase,x-ray diffraction,local,x
+43,1pdb.A/1yho.A,0.25369979426943756,0.46848920636193186,0.3419643208154932,1yho.A.pdb,1pdb.A.pdb,186,oxidoreductase,x-ray diffraction,local,n
+44,1pfl.A/1fil.A,0.16386351314331582,0.5841777691730754,0.552361159562493,1fil.A.pdb,1pfl.A.pdb,139,regulatory protein,solution nmr,,x
+45,1rf5.A/1rf4.A,0.16116317643892283,0.528045677373707,0.6228037968567893,1rf4.A.pdb,1rf5.A.pdb,427,transferase,x-ray diffraction,inter-domain,x
+46,1rka.A/1gqt.A,0.9250315942482037,0.7800558535171407,0.7371743752231347,1gqt.A.pdb,1rka.A.pdb,305,transferase,x-ray diffraction,local,x
+47,1rkm.A/1b6h.A,-0.03551166985357917,0.1419276922259086,0.0857689966933621,1b6h.A.pdb,1rkm.A.pdb,517,binding protein,x-ray diffraction,inter-domain,x
+48,1s2o.A/1tj5.A,0.7979623666927228,0.6876169696898645,0.571733398764753,1tj5.A.pdb,1s2o.A.pdb,244,hydrolase,x-ray diffraction,other,x
+49,1skt.A/1tnq.A,0.4224125639845855,0.7806685442780359,0.5766430049299371,1tnq.A.pdb,1skt.A.pdb,90,calcium-binding protein,solution nmr,,n
+50,1sym.B/1xyd.B,0.3719411741351514,0.8112483186456917,0.5254652318222891,1xyd.B.pdb,1sym.B.pdb,92,calcium-binding protein,solution nmr,,n
+51,1tfu.A/3uc5.A,0.6132461356745466,0.7034714997752846,0.5533319920186635,3uc5.A.pdb,1tfu.A.pdb,157,transferase,x-ray diffraction,local,x
+52,1tjd.A/1eej.B,0.6881200993165635,0.6677601862732556,0.39392751879230126,1eej.B.pdb,1tjd.A.pdb,216,isomerase,x-ray diffraction,other,x
+53,1urp.D/2dri.A,0.9768998323408854,0.6562466474423435,0.6071034155115659,2dri.A.pdb,1urp.D.pdb,271,transport,x-ray diffraction,inter-domain,x
+54,1viy.C/1vhl.A,0.2665590387862108,0.5968601101771125,0.3889466342950703,1vhl.A.pdb,1viy.C.pdb,208,transferase,x-ray diffraction,other,x
+55,1vr6.A/1rzm.A,0.9692938237922215,0.5864187932680462,0.9414568924565678,1rzm.A.pdb,1vr6.A.pdb,343,transferase,x-ray diffraction,other,x
+56,1w0j.E/1e1r.F,0.2868420148359365,0.9569428709767586,0.0989074286138535,1e1r.F.pdb,1w0j.E.pdb,466,hydrolase,x-ray diffraction,other,x
+57,1w4u.A/1ur6.A,0.21684739123921634,0.5109142429092225,0.3946292223648276,1ur6.A.pdb,1w4u.A.pdb,147,ligase,solution nmr,,n
+58,1wd7.B/1wcw.A,0.10590696811800106,-0.28627829403774774,0.6542128293994253,1wcw.A.pdb,1wd7.B.pdb,255,lyase,x-ray diffraction,inter-domain,x
+59,1xsa.A/1xsc.A,0.6616162179216051,0.912834235939446,0.8904926647426632,1xsc.A.pdb,1xsa.A.pdb,153,hydrolase,solution nmr,,n
+60,1y3q.A/1y3n.A,0.154201938059638,0.3325870002680301,0.3854591363936323,1y3n.A.pdb,1y3q.A.pdb,490,sugar binding protein,x-ray diffraction,other,x
+61,1yl5.B/1yl7.A,0.08076028096182805,0.27990873629873286,0.2611983972633414,1yl7.A.pdb,1yl5.B.pdb,247,oxidoreductase,x-ray diffraction,local,x
+62,1z15.A/1z17.A,0.33252315174025726,0.8242242409244409,0.624948380770903,1z17.A.pdb,1z15.A.pdb,344,transport protein,x-ray diffraction,inter-domain,x
+63,1za1.A/1q95.A,0.5680640521563788,0.9466867995966761,0.48116012697173083,1q95.A.pdb,1za1.A.pdb,310,transferase,x-ray diffraction,local,x
+64,1zol.A/1o03.A,0.706827622130206,0.8903038545217474,0.5715278948013973,1o03.A.pdb,1zol.A.pdb,221,isomerase,x-ray diffraction,inter-domain,x
+65,2ai6.A/2ozw.A,0.20123791396037993,0.534462757513267,0.3466970855602814,2ozw.A.pdb,2ai6.A.pdb,125,hydrolase,solution nmr,,n
+66,2cg7.A/2cg6.A,0.13987990693772032,0.24169917446177722,0.5849568682757721,2cg6.A.pdb,2cg7.A.pdb,90,signaling protein,x-ray diffraction,other,x
+67,2cjo.A/1roe.A,0.27642788537932167,0.2795768863053765,0.3727798174058309,1roe.A.pdb,2cjo.A.pdb,97,electron transport,solution nmr,,n
+68,2d9e.A/2rs9.B,0.3977832597727007,0.8947342673488425,0.7771177009100922,2rs9.B.pdb,2d9e.A.pdb,121,transcription,solution nmr,,n
+69,2f63.A/1eqm.A,0.6477327122992224,0.9380146132628754,0.8418061296229163,1eqm.A.pdb,2f63.A.pdb,158,transferase,solution nmr,,x
+70,2fhm.A/2hlt.A,0.1490783981960201,0.6958347194379784,0.5782947254312366,2hlt.A.pdb,2fhm.A.pdb,91,hydrolase,solution nmr,,n
+71,2in2.A/2b0f.A,0.5607069547204845,0.7933102184059799,0.5685860400382172,2b0f.A.pdb,2in2.A.pdb,182,hydrolase,solution nmr,,n
+72,2ju3.A/2ju8.A,0.4990860796390434,0.6491965174383605,0.6649975102720325,2ju8.A.pdb,2ju3.A.pdb,127,lipid binding protein,solution nmr,,n
+73,2jww.A/1rtp.1,0.29138374074229073,0.4449357513938025,0.47521135075626825,1rtp.1.pdb,2jww.A.pdb,109,metal binding protein,solution nmr,,x
+74,2k43.A/2k8r.A,0.3345381090802552,0.8196109731392281,0.8152290909219063,2k8r.A.pdb,2k43.A.pdb,133,protein transport,solution nmr,,n
+75,2kq2.A/2kw4.A,0.46443065390650046,0.5652076736644813,0.6631068350359182,2kw4.A.pdb,2kq2.A.pdb,147,hydrolase,solution nmr,,n
+76,2kxl.A/2k0g.A,0.8339775639797997,0.51382548041857,0.279743973817669,2k0g.A.pdb,2kxl.A.pdb,142,membrane protein,solution nmr,,n
+77,2l50.A/2l51.B,0.33516937868215,0.8261757907330153,0.8527001088620899,2l51.B.pdb,2l50.A.pdb,102,metal binding protein,solution nmr,,n
+78,2l68.A/2lkk.A,-0.06509620740996812,0.3446421593873806,0.5341530428023369,2lkk.A.pdb,2l68.A.pdb,126,lipid binding protein,solution nmr,,n
+79,2lao.A/1lah.E,0.5614988318198807,0.8987539368882506,0.7652219749737269,1lah.E.pdb,2lao.A.pdb,238,amino-acid binding protein,x-ray diffraction,inter-domain,x
+80,2lhs.A/2bem.A,-0.013441686126757989,0.40276020416285035,0.3739670902798427,2bem.A.pdb,2lhs.A.pdb,170,chitin binding protein,solution nmr,,x
+81,2lkc.A/2lkd.A,0.3233823961565754,0.7804989159894566,0.7150890511345641,2lkd.A.pdb,2lkc.A.pdb,178,translation,solution nmr,,n
+82,2nln.A/1rro.A,0.45799373748694766,0.5532559559195148,0.12328562267885733,1rro.A.pdb,2nln.A.pdb,108,metal binding protein,solution nmr,,x
+83,2p3m.A/2vbt.A,0.8108418118889769,0.5615886947412683,0.6250576071869689,2vbt.A.pdb,2p3m.A.pdb,136,transferase,solution nmr,,x
+84,2rcs.H/1aj7.H,0.8747790961330734,0.8863020325987694,0.7860153399087487,1aj7.H.pdb,2rcs.H.pdb,217,germline antibody,x-ray diffraction,other,x
+85,2uz5.A/2vcd.A,0.22083460507124808,0.24118900389791004,0.645682852530537,2vcd.A.pdb,2uz5.A.pdb,137,isomerase,solution nmr,,n
+86,4ake.B/2eck.B,0.7950247450248796,0.8512902607580634,0.909090624715949,2eck.B.pdb,4ake.B.pdb,214,phosphotransferase,x-ray diffraction,other,x
+87,4lp5.A/4p2y.A,0.8772748604066205,0.8705317488811365,0.8683120964541345,4p2y.A.pdb,4lp5.A.pdb,302,signaling protein,x-ray diffraction,other,x
+88,6oy9.B/1a0r.B,0.3661567387469863,0.556417128675865,0.3747300060060777,1a0r.B.pdb,6oy9.B.pdb,339,signaling protein,electron microscopy,,e
+89,7azp.A/4pj1.A,0.6297916307117699,0.4823563114718237,-0.7025729802627443,4pj1.A.pdb,7azp.A.pdb,525,chaperone,electron microscopy,,e

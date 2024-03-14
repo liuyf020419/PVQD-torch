@@ -1,0 +1,62 @@
+import os
+os.sys.path.append("/yrfs1/intern/yfliu25/protein_diffusion/models")
+
+import numpy as np
+import torch
+from torch import nn
+from torch.nn import functional as F
+
+from .evo_diff import *
+from .folding_batch import *
+from dense_block import *
+
+
+class ReconstructAffine(nn.Module):
+    def __init__(self, config, global_config):
+        super().__init__()
+
+        self.config = config
+        self.diffevoformer = DiffEvoformer(config.diffevoformer, global_config)
+        self.affine_gen = AffineGenerator_nSC(config.structure_module,
+                                                global_config,
+                                                config.structure_module.seq_channel,
+                                                 config.structure_module.pair_channel
+                                                )
+        self.continous_noise = ContinousNoiseSchedual(config.structure_module.noise_channel)
+
+        if config.structure_module.pair_updated:
+            self.single_out = Linear(config.structure_module.seq_channel, config.diffevoformer.single_target_dim)
+            self.pair_out = Linear(config.structure_module.pair_channel, config.diffevoformer.pair_target_dim)
+
+
+    def forward(self, quataffine, cnoise):
+        representation = self.prepare_repr(quataffine)
+        
+        assert all(np.isin(["single", "residue_index", "pair", "affine"], list(representation.keys())))
+
+        cnoise_emb = self.continous_noise(cnoise)
+        act_representation = self.diffevoformer(representation, cnoise_emb)
+        act_representation["affine"] = representation["affine"]
+        # import pdb; pdb.set_trace()
+        act_affine = self.affine_gen(act_representation, cnoise_emb)
+
+        if not self.config.structure_module.pair_updated:
+            return act_affine["affine"][-1]
+
+        else:
+            single_out = self.single_out(act_affine["act"])
+            pair_out = self.pair_out(act_affine["pair"]).permute([0, 3, 1, 2])
+            return act_affine["affine"][-1], single_out, pair_out
+
+
+    def prepare_repr(self, quataffine):
+        globalcrds = affine2globalcrd(quataffine)
+
+        BB_tors = get_backbone_tors_batch(globalcrds)
+        geom_maps = extract_2d_maps_batch(globalcrds)
+
+        residue_index = torch.arange(BB_tors.size(1))
+        representation = {"single": BB_tors.to(quataffine.device), "pair": geom_maps.to(quataffine.device), 
+                          "residue_index": residue_index.to(quataffine.device), "affine": quataffine.to(quataffine.device)}
+
+        return representation
